@@ -185,7 +185,7 @@ if submit:
                 f"Final score: {st.session_state.score}"
             )
         else:
-            if st.session_state.attempts >= attempt_limit:
+            if st.session_state.attempts > attempt_limit:
                 st.session_state.status = "lost"
                 st.error(
                     f"Out of attempts! "
