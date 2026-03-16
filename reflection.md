@@ -8,7 +8,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
----
+--- the "hint" only tells you to "go higher", even when the secret numer is lower than the attempt
+the "new game" button does not work
+scoring seems to be incorrect
 
 ## 2. How did you use AI as a teammate?
 
