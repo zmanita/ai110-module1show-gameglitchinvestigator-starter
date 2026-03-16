@@ -46,5 +46,9 @@ For other fixes, such as, for fixing the hints, I instructed the AI to create se
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+
+  I learnt how to use Copilot's Generate Commit Message feature in the Source Control tab.  
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would give the AI examples of the changes I want it to make in the prompt.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+AI generated code is not always correct. This project made me more informed on effective prompts. 
