@@ -25,13 +25,23 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+   The game's purpose is to Display winning messages when usen can guess the secret, calculate and display number of attempts left, end game when 0 attempts left, and show correct hints (higher/lower) based on user guess and secret.
+
+   The bugs I found: 
+   the "hint" only tells you to "go higher", even when the secret number is lower than the attempt
+   the "new game" button does not work
+   scoring seems to be incorrect
+   game ends when 1 attempt is left
+
+   Fixes applied:
+   Fixed hints 
+   New game button works
+   Game ends after 0 attempts left
+   Moved code from app.py to logic_utils.py
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
 
 ## 🚀 Stretch Features
 
