@@ -1,3 +1,4 @@
+# COLLABORATION: Refactored from app.py into logic_utils.py with Copilot to separate game logic from UI
 def get_range_for_difficulty(difficulty: str):
     """Return (low, high) inclusive range for a given difficulty."""
     if difficulty == "Easy":
@@ -9,6 +10,7 @@ def get_range_for_difficulty(difficulty: str):
     return 1, 100
 
 
+# COLLABORATION: Refactored from app.py into logic_utils.py with Copilot to separate game logic from UI
 def parse_guess(raw: str):
     """
     Parse user input into an int guess.
@@ -32,6 +34,8 @@ def parse_guess(raw: str):
     return True, value, None
 
 
+# COLLABORATION: Refactored from app.py into logic_utils.py with Copilot. Fixed hint bug where messages were inverted.
+# Originally showed "Go HIGHER" when guess was too high - now correctly shows "Go LOWER" and vice versa.
 def check_guess(guess, secret):
     """
     Compare guess to secret and return (outcome, message).
@@ -55,6 +59,7 @@ def check_guess(guess, secret):
         return "Too Low", "📈 Go HIGHER!"
 
 
+# COLLABORATION: Refactored from app.py into logic_utils.py with Copilot to separate game logic from UI
 def update_score(current_score: int, outcome: str, attempt_number: int):
     """Update score based on outcome and attempt number."""
     if outcome == "Win":

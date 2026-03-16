@@ -1,5 +1,8 @@
 import random
 import streamlit as st
+
+# COLLABORATION: Refactored business logic into logic_utils.py with Copilot to separate concerns.
+# This keeps app.py focused on UI/presentation while logic_utils.py handles game mechanics.
 from logic_utils import get_range_for_difficulty, parse_guess, check_guess, update_score
 
 st.set_page_config(page_title="Glitchy Guesser", page_icon="🎮")
